@@ -782,7 +782,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@3.6.1", "@nuxt/kit@^3.3.3", "@nuxt/kit@^3.6.0":
+"@nuxt/kit@3.6.1", "@nuxt/kit@^3.3.3", "@nuxt/kit@^3.5.1", "@nuxt/kit@^3.6.0":
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.1.tgz#78c1a18f63defaf890f1e7d6c69f4d385d43b8af"
   integrity sha512-7AoiKV0zAtyT3ZvjMfGislMcB+JMbBZxYw68/oWtkEPXCfGQMYuiMI9Ue246/0JT2Yp2KZclEgrJEJ6NLkqFcw==
@@ -1018,6 +1018,44 @@
     "@sigstore/protobuf-specs" "^0.1.0"
     make-fetch-happen "^11.0.1"
     tuf-js "^1.1.3"
+
+"@stylify/bundler@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@stylify/bundler/-/bundler-0.6.2.tgz#46434f99395d1c2792199b40f33adad690ede945"
+  integrity sha512-krUQJaqUcqn6m2fEG1UmAowmKvpcbBOor+SuPWl95pmsAeSajSJfx3eTnBpMhMD1mo77kafEHnGawwPN9NXYxA==
+  dependencies:
+    "@stylify/stylify" "^0.6.2"
+    autoprefixer "^10.4.14"
+    chokidar "^3.5.3"
+    fast-glob "^3.2.12"
+    micromatch "^4.0.5"
+    normalize-path "^3.0.0"
+    postcss "^8.4.23"
+
+"@stylify/nuxt@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@stylify/nuxt/-/nuxt-0.6.2.tgz#f459d6f0162426aa0a1c8867f2fac8f735a29732"
+  integrity sha512-Q15oP8m2jTNWKKb59cdBpgV9u9a4F0kBKNl5dWSq8BiL/alPqM+HUov/JCc5SnxghmdFFoXLGM9y9I8kyAE4xg==
+  dependencies:
+    "@nuxt/kit" "^3.5.1"
+    "@stylify/bundler" "^0.6.2"
+    "@stylify/stylify" "^0.6.2"
+    "@stylify/unplugin" "^0.6.2"
+    normalize-path "^3.0.0"
+
+"@stylify/stylify@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@stylify/stylify/-/stylify-0.6.2.tgz#9d1721148d253b37e1bc525c33b54bc3899346d8"
+  integrity sha512-uZKtxjpr4ScEWPdPo/8H+q/f55PSOUADdCHWw6vQRUY/Y31+gII9LoivNewNUZEZKT4KKetF9LKrTPXPqb36iw==
+
+"@stylify/unplugin@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@stylify/unplugin/-/unplugin-0.6.2.tgz#db90d059337e2bbaec9e6660d8c5194feb315b67"
+  integrity sha512-hyZR6oBi9DXI0rNvTR8xKWZ3LLQtWfkkejC8a1pWS8I3rvTPifrq/rEmCOThBpb4Q61jSpwq4lZto1j+MBIXoA==
+  dependencies:
+    "@stylify/bundler" "^0.6.2"
+    "@stylify/stylify" "^0.6.2"
+    unplugin "^1.3.1"
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -3751,7 +3789,7 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-micromatch@^4.0.2, micromatch@^4.0.4:
+micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==

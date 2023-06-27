@@ -1,6 +1,8 @@
 <template>
   <button @click="mute1">Mute 1</button>
   <button @click="mute2">Mute 2</button>
+
+  <Octahack></Octahack>
 </template>
 
 <script lang="ts" setup>
