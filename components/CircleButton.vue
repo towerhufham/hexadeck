@@ -3,11 +3,13 @@
         background-color:grey
         border:none margin:2px
         border-radius:999px" 
-        :class="`grid-column:${x}/span_2 grid-row:${y}/span_2`"
+        :style="styles"
         >
     </button>
 </template>
 
 <script setup lang="ts">
     const props = defineProps(["x", "y"])
+    const getStyles = useGrid().getStyles
+    const styles = getStyles(props.x, props.y, 2, 2)
 </script>
