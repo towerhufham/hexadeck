@@ -7,6 +7,12 @@
 .background-color\:skyblue{
 	background-color: skyblue
 }
+.hover\:background-color\:white:hover{
+	background-color: white
+}
+.background-color\:red{
+	background-color: red
+}
 .border\:none{
 	border: none
 }
@@ -40,15 +46,30 @@
 .height\:400px{
 	height: 400px
 }
+.height\:10\%\;{
+	height: 10%;
+}
+.height\:10\%px{
+	height: 10%px
+}
 .margin\:2px{
 	margin: 2px
 }
 .margin\:50px_auto{
 	margin: 50px auto
 }
+.position\:relative{
+	position: relative
+}
 .text-align\:center{
 	text-align: center
 }
 .width\:800px{
 	width: 800px
+}
+.width\:10\%{
+	width: 10%
+}
+.width\:10px{
+	width: 10px
 }
