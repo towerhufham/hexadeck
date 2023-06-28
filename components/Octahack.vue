@@ -17,8 +17,6 @@
       Screen
     </div>
 
-    <!-- TODO: make a composable for positioning on the grid, with x y width and height measured in the fr's -->
-
     <CircleButton x="1" y="15"></CircleButton>
     <CircleButton x="3" y="15"></CircleButton>
     <CircleButton x="5" y="15"></CircleButton>
