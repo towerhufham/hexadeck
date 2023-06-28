@@ -23,7 +23,8 @@
     sound2.volume(0)
   }
   onMounted(() => {
-    sound1.play()
-    sound2.play()
+    //note: this still requires a mouse click to trigger audio
+    // sound1.play()
+    // sound2.play()
   })
 </script>
