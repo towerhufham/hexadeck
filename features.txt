@@ -1,0 +1,32 @@
+OCTAHACK FEATURES
+
+8 tracks
+each track can be assigned a type
+
+Loop track
+Loops a sample according to the memcard's bpm
+can set how many bars the loop is, or if it's unsynced to bpm
+
+Sample track
+Load up one sample and seq it to a 16 step sequencer
+Sequencer can move at bpm speed, 2x, or 0.5x
+
+MIDI track
+Select a voice from softsynth(?) .sf2 and seq it to a 16 step sequencer
+Set note pitch, length, etc
+
+FX track
+Select from a few different effects and then set them to other channels
+can also seq these with the 16 step
+
+Each track has 2 "poles"
+Each pole is a set of different settings that can be adjusted during performance
+
+
+MIXSIXTEEN FEATURES
+
+Can hold two octahack memcards
+Loads up a bank of up to 16 memcards that can be swapped seamlessly
+Each track has a volume slider, and a pole slider
+It also has a few effects you can toggle and adjust live
+Can communicate with midi faders
