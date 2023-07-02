@@ -4,11 +4,11 @@ OCTAHACK FEATURES
 each track can be assigned a type
 
 Loop track
-Loops a sample according to the memcard's bpm
+Loops a <16MB sample according to the memcard's bpm
 can set how many bars the loop is, or if it's unsynced to bpm
 
 Sample track
-Load up one sample and seq it to a 16 step sequencer
+Load up eight <1MB samples and seq it to a 16 step sequencer
 Sequencer can move at bpm speed, 2x, or 0.5x
 
 MIDI track
@@ -30,3 +30,18 @@ Loads up a bank of up to 16 memcards that can be swapped seamlessly
 Each track has a volume slider, and a pole slider
 It also has a few effects you can toggle and adjust live
 Can communicate with midi faders
+
+
+PWV-016 FEATURES
+
+Painting with voice (16 is a reference to the other stuff, plus 2016 when painting with came out)
+Various live FX is applied to the microphone input
+Might not be possible to do live, may have to be a post-processing effect
+
+
+
+
+
+GOOD LUCKS
+https://levelup.gitconnected.com/async-load-an-audio-file-and-play-it-with-howler-js-fefc4f537656
+https://github.com/tonistiigi/audiosprite

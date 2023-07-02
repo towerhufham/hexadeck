@@ -11,10 +11,12 @@
   const sound1 = new Howl({
     src: ["/samples/geo1.wav"],
     loop: true,
+    rate: 1
   })
   const sound2 = new Howl({
     src: ["/samples/geo2.wav"],
     loop: true,
+    rate: 1
   })
   const mute1 = () => {
     sound1.volume(0)
