@@ -45,3 +45,4 @@ Might not be possible to do live, may have to be a post-processing effect
 GOOD LUCKS
 https://levelup.gitconnected.com/async-load-an-audio-file-and-play-it-with-howler-js-fefc4f537656
 https://github.com/tonistiigi/audiosprite
+https://www.npmjs.com/package/soundfont-player

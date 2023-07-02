@@ -1283,6 +1283,11 @@ acorn@8.9.0, acorn@^8.6.0, acorn@^8.8.2, acorn@^8.9.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.9.0.tgz#78a16e3b2bcc198c10822786fa6679e245db5b59"
   integrity sha512-jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==
 
+adsr@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/adsr/-/adsr-1.0.1.tgz#a7bc08e5ef8a71e6364abc96fce7df1c44881cc3"
+  integrity sha512-thr9LK4jxApOzBA33IWOA83bXJFbyfbeozpHXyrMQOIhUni198uRxXqDhobW0S/51iokqty2Yz2WbLZbE6tntQ==
+
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -1478,6 +1483,11 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
+
+audio-loader@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/audio-loader/-/audio-loader-0.5.0.tgz#9c125d1b25c33cd9626084054d9f6b7f31ddc908"
+  integrity sha512-mEoYRjZhqkBSen/X9i2PNosqvafEsur8bI5MNoPr0wsJu9Nzlul3Yv1elYeMPsXxTxYhXLY8AZlScBvaK4mydg==
 
 autoprefixer@^10.4.14:
   version "10.4.14"
@@ -3759,6 +3769,11 @@ micromatch@^4.0.2, micromatch@^4.0.4:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
+midimessage@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/midimessage/-/midimessage-1.0.5.tgz#ad99f04d863a053a2563d553c5bf35070b48802c"
+  integrity sha512-MPJ2tDupFOfZB5/PLp8fri1IS4fd9hPj0Bio//FBhWRQ+TsJA7/49CF1aJyraDxa0Jq8zMHAwrwXl2GINvLvgw==
+
 mime-db@1.52.0:
   version "1.52.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
@@ -4122,6 +4137,16 @@ normalize-range@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==
+
+note-parser@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/note-parser/-/note-parser-1.1.0.tgz#12e9f17e51450ec994f1364a01982c22667b8e6b"
+  integrity sha512-YTqWQBsRp40EFrEznnkGtmx68gcgOQ8CdoBspqGBA3G1/4mJwIYbDe/vuNpX3oGX2DhP7b1dBgTmj7p3Zr0P1Q==
+
+note-parser@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/note-parser/-/note-parser-2.0.1.tgz#2438fd57a46894b402b3a2071798660129c8fbc1"
+  integrity sha512-w9o6Fv46y3NsFxeezTZSmftBtUM/ypme6iZWVrTJvvsD5RN+w0XNDePWtfreNrZFL3jSjBFhadPoXb+pJO4UdA==
 
 npm-bundled@^3.0.0:
   version "3.0.0"
@@ -5070,6 +5095,15 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
+sample-player@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/sample-player/-/sample-player-0.5.5.tgz#bc35bea3449c6fa972528f022a9bbc2872195637"
+  integrity sha512-VQ9pXPJ1m/eTH8QK6OQ8Dn/HSVToNyY9w9vnv+y/yjkJeRm87tJ/gBEm66jItfSLhKe6VG1DfX8+oT+Mg7QUpg==
+  dependencies:
+    adsr "^1.0.0"
+    midimessage "^1.0.5"
+    note-parser "^1.1.0"
+
 scule@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/scule/-/scule-1.0.0.tgz#895e6f4ba887e78d8b9b4111e23ae84fef82376d"
@@ -5229,6 +5263,15 @@ socks@^2.6.2:
   dependencies:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
+
+soundfont-player@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/soundfont-player/-/soundfont-player-0.12.0.tgz#2b26149f28aba471d2285d3df9a2e1e5793ceaf1"
+  integrity sha512-8BJIsAt7h1PK3thSZDgF6zecgGhYkK74JnZO8WRZi3h34qG6H/DYlnv7cpRvL7Q9C8N6qld4Qwj7nJsX1gYjEA==
+  dependencies:
+    audio-loader "^0.5.0"
+    note-parser "^2.0.0"
+    sample-player "^0.5.5"
 
 source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
